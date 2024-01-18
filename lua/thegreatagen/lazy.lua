@@ -15,7 +15,8 @@ local plugins = {
   "folke/which-key.nvim",
   { "folke/neoconf.nvim", cmd = "Neoconf" },
   "folke/neodev.nvim",
-  { 'rose-pine/neovim', name = 'rose-pine' }
+  { 'rose-pine/neovim', name = 'rose-pine' },
+  {'nvim-treesitter/nvim-treesitter', name= 'tree-sitter' }
 }
 
 require("lazy").setup(plugins, opts)
