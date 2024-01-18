@@ -1,0 +1,7 @@
+{
+  "lazy.nvim": { "branch": "main", "commit": "96584866b9c5e998cbae300594d0ccfd0c464627" },
+  "neoconf.nvim": { "branch": "main", "commit": "64437787dba70fce50dad7bfbb97d184c5bc340f" },
+  "neodev.nvim": { "branch": "main", "commit": "482abc6688a028ce183719b0350d0235ae2c2e83" },
+  "rose-pine": { "branch": "main", "commit": "ae445417f4fde24b24fd1224624f0bedab5ae304" },
+  "which-key.nvim": { "branch": "main", "commit": "4433e5ec9a507e5097571ed55c02ea9658fb268a" }
+}
