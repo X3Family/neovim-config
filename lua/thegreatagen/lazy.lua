@@ -15,7 +15,6 @@ local plugins = {
     "folke/which-key.nvim",
     { "folke/neoconf.nvim",              cmd = "Neoconf" },
     "folke/neodev.nvim",
-    { 'rose-pine/neovim',                name = 'rose-pine' },
     { 'nvim-treesitter/nvim-treesitter', name = 'tree-sitter' },
     { "theprimeagen/harpoon" },
     {
@@ -25,6 +24,14 @@ local plugins = {
         dependencies = {
             "nvim-tree/nvim-web-devicons",
         },
+    },
+    {
+        -- Catppuccin theme
+        'catppuccin/nvim',
+        priority = 1000,
+        config = function()
+            vim.cmd.colorscheme 'catppuccin-mocha'
+        end,
     },
     {
         "williamboman/mason.nvim"
@@ -52,6 +59,13 @@ local plugins = {
             { 'rafamadriz/friendly-snippets' },
 
         }
+    },
+    {
+        'numToStr/Comment.nvim',
+        opts = require('configs.comment'),
+        config = function()
+            require('Comment').setup()
+        end,
     },
 }
 
