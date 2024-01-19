@@ -67,6 +67,15 @@ local plugins = {
             require('Comment').setup()
         end,
     },
+    { "andweeb/presence.nvim" },
+    { "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} },
+    { "m4xshen/autoclose.nvim" },
+    { "nvim-lua/plenary.nvim" },
+    {
+        "ThePrimeagen/harpoon",
+        branch = "harpoon2",
+        dependencies = { { "nvim-lua/plenary.nvim" } }
+    },
 }
 
-require("lazy").setup(plugins, opts)
+require("lazy").setup(plugins, {})
