@@ -81,7 +81,13 @@ local plugins = {
         tag = '0.1.5',
         -- or                              , branch = '0.1.x',
         dependencies = { 'nvim-lua/plenary.nvim' }
-    }
+    },
+    {
+        -- Set lualine as statusline
+        'nvim-lualine/lualine.nvim',
+        -- See `:help lualine.txt`
+        opts = require('configs.lualine')
+    },
 }
 
 require("lazy").setup(plugins, {})
