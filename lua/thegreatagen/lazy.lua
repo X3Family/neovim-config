@@ -101,6 +101,10 @@ local plugins = {
     {
         'goolord/alpha-nvim',
     },
+    {
+        "folke/trouble.nvim",
+        dependencies = { "nvim-tree/nvim-web-devicons" },
+    }
 }
 
 require("lazy").setup(plugins, {})
