@@ -12,9 +12,6 @@ this is a Neovim setup powered by [TheGreatagen](https://github.com/thegreatagen
 - Neovim >= 0.9.0 (needs to be built with LuaJIT)
 - a Nerd Font(v3.0 or greater) (optional, but needed to display some icons)
 - a C compiler for nvim-treesitter. See [here](https://github.com/nvim-treesitter/nvim-treesitter#requirements)
-- for telescope.nvim (optional)
-  - live grep: space + sg
-  - find files: space + sf
 
 # 🛠️ Installation
 this section introduces how could you use this config
