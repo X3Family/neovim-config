@@ -98,6 +98,9 @@ local plugins = {
             vim.keymap.set('i', '<c-x>', function() return vim.fn['codeium#Clear']() end, { expr = true })
         end
     },
+    {
+        'goolord/alpha-nvim',
+    },
 }
 
 require("lazy").setup(plugins, {})
