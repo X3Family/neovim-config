@@ -3,7 +3,7 @@ local if_nil = vim.F.if_nil
 local default_terminal = {
     type = "terminal",
     command = nil,
-    width = 69,
+    width = 89,
     height = 8,
     opts = {
         redraw = true,
@@ -50,7 +50,7 @@ local function button(sc, txt, keybind, keybind_opts)
         position = "center",
         shortcut = sc,
         cursor = 3,
-        width = 50,
+        width = 60,
         align_shortcut = "right",
         hl_shortcut = "Keyword",
     }
@@ -75,13 +75,9 @@ end
 local buttons = {
     type = "group",
     val = {
-        button("e", "  New file", "<cmd>ene <CR>"),
         button("SPC s f", "󰈞  Find file"),
-        button("SPC s h", "󰊄  Recently opened files"),
-        button("SPC s r", "  Frecency/MRU"),
-        button("SPC s g", "󰈬  Find word"),
-        button("SPC s m", "  Jump to bookmarks"),
-        button("SPC s l", "  Open last session"),
+        button("SPC q s", "  Open last session in the current directory"),
+        button("SPC q l", "  Open last session"),
     },
     opts = {
         spacing = 1,
