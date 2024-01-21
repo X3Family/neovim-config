@@ -132,5 +132,5 @@ require 'nvim-web-devicons'.setup {
 
 
 -- NvimTree keymap
-vim.keymap.set("n", "<leader>pv", vim.cmd.NvimTreeToggle)
+vim.keymap.set("n", "<leader>e", vim.cmd.NvimTreeToggle)
 vim.keymap.set("n", "<leader>l", vim.cmd.NvimTreeFocus)
