@@ -150,3 +150,15 @@ telescope.nvim is a highly extendable fuzzy finder over lists. Built on the late
 | ```space + xq``` |  opens the quickfix | normal mode |
 | ```space + xl``` |  opens the local list | normal mode |
 | ```gR``` |  opens the lsp references | normal mode |
+
+## [todo-comments.nvim](https://github.com/folke/todo-comments.nvim)
+todo comments allows you to make beautiful comments with cool highlighting.
+<br />
+<br />
+![118135272-ad21e980-b3b7-dsf11eb-881c-e45a4a3d6192](https://github.com/theGreatagen/neovim-config/assets/133010783/aee41fa7-9be7-4466-815a-289f418aa5ca)
+
+| Key | Description | Modes     |
+| -------- | ------- | ------- |
+| ```]t``` | allows you jump to next comment | normal mode |
+| ```[t``` |  allows you jump to previous comment | normal mode |
+
