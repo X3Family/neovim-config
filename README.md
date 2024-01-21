@@ -162,3 +162,23 @@ todo comments allows you to make beautiful comments with cool highlighting.
 | ```]t``` | allows you jump to next comment | normal mode |
 | ```[t``` |  allows you jump to previous comment | normal mode |
 
+# ⚙️ Configuration
+## 📂 File Structure
+
+
+```bash
+
+~/.config/nvim
+├── lua
+│   ├── configs // plugins config
+│   │   ├── init.lua
+│   │   └── ...
+│   └── thegreatagen // main config
+│       ├── init.lua
+│       ├── lazy.lua
+│       ├── set.lua
+│       └── remap.lua
+└── init.lua
+
+ ```
+
