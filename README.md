@@ -1,4 +1,4 @@
-T# 🚀 Getting Started
+🚀 Getting Started
 this is a Neovim setup powered by [TheGreatagen](https://github.com/thegreatagen1) & [Ahmed hany](https://github.com/ahmedhany5) to make it easy to use neovim fast & smooth
 
 # ✨ Features
