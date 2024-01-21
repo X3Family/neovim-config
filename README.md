@@ -163,6 +163,7 @@ todo comments allows you to make beautiful comments with cool highlighting.
 | ```[t``` |  allows you jump to previous comment | normal mode |
 
 # ⚙️ Configuration
+this section about how the config works and more.
 ## 📂 File Structure
 
 
