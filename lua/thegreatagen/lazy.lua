@@ -12,11 +12,12 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 local plugins = {
+    -- lazy.nvim plugin ( the package manager )
     "folke/which-key.nvim",
     { "folke/neoconf.nvim",              cmd = "Neoconf" },
     "folke/neodev.nvim",
     { 'nvim-treesitter/nvim-treesitter', name = 'tree-sitter' },
-    { "theprimeagen/harpoon" },
+    -- nvim tree
     {
         "nvim-tree/nvim-tree.lua",
         version = "*",
@@ -25,6 +26,7 @@ local plugins = {
             "nvim-tree/nvim-web-devicons",
         },
     },
+    -- theme ( catppuccin )
     {
         -- Catppuccin theme
         'catppuccin/nvim',
@@ -33,9 +35,12 @@ local plugins = {
             vim.cmd.colorscheme 'catppuccin-mocha'
         end,
     },
+    -- mason
     {
         "williamboman/mason.nvim"
     },
+
+    -- lsps
     {
         'VonHeikemen/lsp-zero.nvim',
         branch = 'v1.x',
@@ -60,6 +65,8 @@ local plugins = {
 
         }
     },
+
+    -- comments.nvim
     {
         'numToStr/Comment.nvim',
         opts = require('configs.comment'),
@@ -67,27 +74,36 @@ local plugins = {
             require('Comment').setup()
         end,
     },
+
+    -- presence
     { "andweeb/presence.nvim" },
+    -- ibl
     { "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} },
+    -- autoclose
     { "m4xshen/autoclose.nvim" },
+    -- harpoon dependency
     { "nvim-lua/plenary.nvim" },
+    -- harpoon
     {
         "ThePrimeagen/harpoon",
         branch = "harpoon2",
         dependencies = { { "nvim-lua/plenary.nvim" } }
     },
+    -- telescope
     {
         'nvim-telescope/telescope.nvim',
         tag = '0.1.5',
         -- or                              , branch = '0.1.x',
         dependencies = { 'nvim-lua/plenary.nvim' }
     },
+    -- lualine
     {
         -- Set lualine as statusline
         'nvim-lualine/lualine.nvim',
         -- See `:help lualine.txt`
         opts = require('configs.lualine')
     },
+    -- codeium AI
     {
         'Exafunction/codeium.vim',
         config = function()
@@ -98,13 +114,19 @@ local plugins = {
             vim.keymap.set('i', '<c-x>', function() return vim.fn['codeium#Clear']() end, { expr = true })
         end
     },
+
+    -- alpha
     {
         'goolord/alpha-nvim',
     },
+
+    -- trouble
     {
         "folke/trouble.nvim",
         dependencies = { "nvim-tree/nvim-web-devicons" },
     },
+
+    -- persistence
     {
         "folke/persistence.nvim",
         event = "BufReadPre", -- this will only start session saving when an actual file was opened
@@ -112,7 +134,11 @@ local plugins = {
             -- add any custom options here
         }
     },
+
+    -- nvim-ts-autotag
     { "windwp/nvim-ts-autotag" },
+
+    -- todo-comments
     {
         "folke/todo-comments.nvim",
         dependencies = { "nvim-lua/plenary.nvim" },
@@ -122,6 +148,8 @@ local plugins = {
             -- refer to the configuration section below
         }
     },
+
+    -- barbar
     {
         'romgrk/barbar.nvim',
         dependencies = {
