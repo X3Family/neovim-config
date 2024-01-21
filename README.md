@@ -131,3 +131,22 @@ Persistence is a simple lua plugin for automated session management.
 | ```space + qs``` |  restore the session for the current directory   | normal mode |
 | ```space + ql``` |  restore the last session   | normal mode |
 | ```space + qd``` |  stop Persistence => session won't be saved on exit   | normal mode |
+
+## [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
+telescope.nvim is a highly extendable fuzzy finder over lists. Built on the latest awesome features from neovim core. Telescope is centered around modularity, allowing for easy customization.
+| Key | Description | Modes     |
+| -------- | ------- | ------- |
+| ```space + sf``` |  search for a file in a directory | normal mode |
+| ```space + sg``` |  search for a word around the files in the current directory   | normal mode |
+| ```space + sb``` |  search for a buffer around all opened buffers   | normal mode |
+
+## [trouble.nvim](https://github.com/nvim-telescope/telescope.nvim)
+telescope.nvim is a highly extendable fuzzy finder over lists. Built on the latest awesome features from neovim core. Telescope is centered around modularity, allowing for easy customization.
+| Key | Description | Modes     |
+| -------- | ------- | ------- |
+| ```space + tr``` |  opens the trouble list, the errors around the current folder | normal mode |
+| ```space + xw``` |  opens the workspace diagnostics list | normal mode |
+| ```space + xd``` |  opens the document diagnostics list   | normal mode |
+| ```space + xq``` |  opens the quickfix | normal mode |
+| ```space + xl``` |  opens the local list | normal mode |
+| ```gR``` |  opens the lsp references | normal mode |
