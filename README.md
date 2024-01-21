@@ -1,4 +1,4 @@
-# 🚀 Getting Started
+T# 🚀 Getting Started
 this is a Neovim setup powered by [TheGreatagen](https://github.com/thegreatagen1) & [Ahmed hany](https://github.com/ahmedhany5) to make it easy to use neovim fast & smooth
 
 # ✨ Features
@@ -162,6 +162,12 @@ todo comments allows you to make beautiful comments with cool highlighting.
 | ```]t``` | allows you jump to next comment | normal mode |
 | ```[t``` |  allows you jump to previous comment | normal mode |
 
+## [barbar.nvim](https://github.com/romgrk/barbar.nvim)
+adds tabs to your project to make navigation easy
+<br/>
+<br/>
+![image](https://github.com/theGreatagen/neovim-config/assets/133010783/f4ee6320-6846-403b-8c15-11590fa263e4)
+
 # ⚙️ Configuration
 this section about how the config works and more.
 ## 📂 File Structure
@@ -182,4 +188,3 @@ this section about how the config works and more.
 └── init.lua
 
  ```
-
