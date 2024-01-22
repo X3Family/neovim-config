@@ -9,7 +9,7 @@ this is a Neovim setup powered by [TheGreatagen](https://github.com/thegreatagen
 - 📦 Comes with a wealth of plugins pre-configured and ready to use
 
 # ⚡️ Requirements
-- Neovim >= 0.9.0 (needs to be built with LuaJIT)
+- Neovim version >= 0.9.0
 - a Nerd Font(v3.0 or greater) (optional, but needed to display some icons)
 - a C compiler for nvim-treesitter. See [here](https://github.com/nvim-treesitter/nvim-treesitter#requirements)
 
