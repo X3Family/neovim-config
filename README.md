@@ -98,7 +98,7 @@ this plugin helps you to navigate between your files fast.
 | ```ctrl + e``` |   opens the harpoon list | normal mode |
 | ```ctrl + t``` |  opens the first file in the harpoon list  | normal mode |
 | ```ctrl + h``` |  opens the second file in the harpoon list  | normal mode |
-| ```ctrl + n``` |  opens the third file in the harpoon list  | normal mode |
+| ```ctrl + b``` |  opens the third file in the harpoon list  | normal mode |
 | ```ctrl + s``` |  opens the file number 4 in the harpoon list  | normal mode |
 
 ## [LSP](https://github.com/VonHeikemen/lsp-zero.nvim)
