@@ -20,7 +20,7 @@ this section introduces how could you use this config
 
 ## Linux/MacOS
 
-- Remove the old config
+- Remove the old config  ( if you have one )
 ```bash
 rm -rf ~/.config/nvim
 ```
@@ -44,7 +44,7 @@ nvim
 
 ## Windows ( powershell )
 
-- Remove the old config
+- Remove the old config ( if you have one )
 ```bash
 Remove-Item $env:LOCALAPPDATA\nvim\ -Recurse -Force
 ```
