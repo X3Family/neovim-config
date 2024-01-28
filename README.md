@@ -25,6 +25,11 @@ this section introduces how could you use this config
 rm -rf ~/.config/nvim
 ```
 
+- Remove the caches
+```bash
+rm -rf ~/.local/share/nvim
+```
+
 - clone the repo:
 ```bash
 git clone https://github.com/theGreatagen/neovim-config ~/.config/nvim
@@ -47,6 +52,11 @@ nvim
 - Remove the old config ( if you have one )
 ```bash
 Remove-Item $env:LOCALAPPDATA\nvim\ -Recurse -Force
+```
+
+- Remove the caches
+```bash
+Remove-Item $env:LOCALAPPDATA\nvim-data\ -Recurse -Force
 ```
 
 - clone the repo:
