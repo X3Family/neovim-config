@@ -17,7 +17,7 @@ lsp.ensure_installed({
     'quick_lint_js',
     'tailwindcss',
     'astro',
-    'bash',
+    'bashls',
     'powershell_es',
 })
 
