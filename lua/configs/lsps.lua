@@ -16,6 +16,9 @@ lsp.ensure_installed({
     'cssmodules_ls',
     'quick_lint_js',
     'tailwindcss',
+    'astro',
+    'bash',
+    'powershell_es',
 })
 
 -- Fix Undefined global 'vim'
