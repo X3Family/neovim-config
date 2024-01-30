@@ -16,7 +16,7 @@ this is a Neovim setup powered by [TheGreatagen](https://github.com/thegreatagen
 # 🛠️ Installation
 this section introduces how could you use this config
 > [!NOTE]
-> make sure you installed neovim, you can see how [here](https://github.com/neovim/neovim)
+> make sure you installed neovim, you can see how [here](https://github.com/neovim/neovim/blob/master/INSTALL.md)
 
 ## Linux/MacOS
 
