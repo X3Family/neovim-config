@@ -165,6 +165,7 @@ local plugins = {
         version = '^1.0.0', -- optional: only update when a new 1.x version is released
     },
     { "tribela/vim-transparent", config = function() vim.g.transparent_enabled = true end },
+    {"wuelnerdotexe/vim-astro", config = function() vim.g.astro_typescript = true end},
 }
 
 require("lazy").setup(plugins, {})
