@@ -172,29 +172,6 @@ todo comments allows you to make beautiful comments with cool highlighting.
 | ```]t``` | allows you jump to next comment | normal mode |
 | ```[t``` |  allows you jump to previous comment | normal mode |
 
-## [barbar.nvim](https://github.com/romgrk/barbar.nvim)
-adds tabs to your project to make navigation easy
-<br/>
-<br/>
-![image](https://github.com/theGreatagen/neovim-config/assets/133010783/f4ee6320-6846-403b-8c15-11590fa263e4)
-
-| Key | Description | Modes     |
-| -------- | ------- | ------- |
-| ```Ctrl + n``` |  allows you to jump to next tab | normal mode |
-| ```Ctrl + p``` |  allows you to jump to previous tab | normal mode |
-| ```Ctrl + 1``` |  allows you to jump to tab number 1 | normal mode |
-| ```gt1``` |  allows you to jump to tab number 1 | normal mode |
-| ```gt2``` |  allows you to jump to tab number 2 | normal mode |
-| ```gt3``` |  allows you to jump to tab number 3 | normal mode |
-| ```gt4``` |  allows you to jump to tab number 4 | normal mode |
-| ```gt5``` |  allows you to jump to tab number 5 | normal mode |
-| ```gt6``` |  allows you to jump to tab number 6 | normal mode |
-| ```gt7``` |  allows you to jump to tab number 7 | normal mode |
-| ```gt8``` |  allows you to jump to tab number 8 | normal mode |
-| ```gt9``` |  allows you to jump to tab number 9 | normal mode |
-| ```gtl``` |  allows you to jump to last tab  | normal mode |
-| ```gtp``` |  allows you to pin the current tab  | normal mode |
-| ```ctrl + c``` |  allows you to remove the current tab  | normal mode |
 
 # ⚙️ Configuration
 this section about how the config works and more.

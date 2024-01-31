@@ -26,15 +26,6 @@ local plugins = {
             "nvim-tree/nvim-web-devicons",
         },
     },
-    -- theme ( catppuccin )
-    {
-        -- Catppuccin theme
-        'catppuccin/nvim',
-        priority = 1000,
-        config = function()
-            vim.cmd.colorscheme 'catppuccin-mocha'
-        end,
-    },
     -- mason
     {
         "williamboman/mason.nvim"
@@ -148,24 +139,17 @@ local plugins = {
         }
     },
 
-    -- barbar
-    {
-        'romgrk/barbar.nvim',
-        dependencies = {
-            'lewis6991/gitsigns.nvim',     -- OPTIONAL: for git status
-            'nvim-tree/nvim-web-devicons', -- OPTIONAL: for file icons
-        },
-        init = function() vim.g.barbar_auto_setup = false end,
-        opts = {
-            -- lazy.nvim will automatically call setup for you. put your options here, anything missing will use the default:
-            -- animation = true,
-            -- insert_at_start = true,
-            -- …etc.
-        },
-        version = '^1.0.0', -- optional: only update when a new 1.x version is released
-    },
     { "tribela/vim-transparent", config = function() vim.g.transparent_enabled = true end },
-    {"wuelnerdotexe/vim-astro", config = function() vim.g.astro_typescript = true end},
+    { "wuelnerdotexe/vim-astro", config = function() vim.g.astro_typescript = true end },
+    {
+        "bluz71/vim-nightfly-colors",
+        name = "nightfly",
+        lazy = false,
+        priority = 1000,
+        config = function()
+            vim.cmd([[colorscheme nightfly]])
+        end
+    },
 }
 
 require("lazy").setup(plugins, {})

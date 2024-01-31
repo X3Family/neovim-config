@@ -12,6 +12,3 @@ require("configs.trouble")
 require("configs.persistence")
 require("configs.nvim-ts-autotag")
 require("configs.todo-comments")
-require("configs.barbar")
-
-
