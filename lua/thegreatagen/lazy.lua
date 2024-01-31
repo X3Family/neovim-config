@@ -91,7 +91,7 @@ local plugins = {
         -- Set lualine as statusline
         'nvim-lualine/lualine.nvim',
         -- See `:help lualine.txt`
-        opts = require('configs.lualine')
+        opts = require('configs.lualine'),
     },
     -- codeium AI
     {
