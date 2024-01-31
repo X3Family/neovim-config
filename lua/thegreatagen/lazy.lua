@@ -81,9 +81,8 @@ local plugins = {
     { "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} },
     -- autoclose
     { "m4xshen/autoclose.nvim" },
-    -- harpoon dependency
+    -- -- Harpoon
     { "nvim-lua/plenary.nvim" },
-    -- harpoon
     {
         "ThePrimeagen/harpoon",
         branch = "harpoon2",
