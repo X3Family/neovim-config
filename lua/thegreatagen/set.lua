@@ -28,16 +28,16 @@ vim.opt.isfname:append("@-@")
 vim.opt.updatetime = 50
 vim.opt.breakindent = true
 vim.opt.textwidth = 100
-vim.opt.colorcolumn = "100"
 vim.opt.wrap = true
 vim.opt.linebreak = true
 vim.opt.list = true
 vim.opt.listchars:append("eol:↴")
 
 -- Folding stuff
-vim.opt.foldmethod = "indent"
 vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
 vim.opt.foldlevel = 8
+vim.opt.fillchars = { eob = " " }
+
 
 --[[ That's it. The most useful commands for working with folds are:
 
