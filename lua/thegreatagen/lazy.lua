@@ -142,12 +142,13 @@ local plugins = {
     { "tribela/vim-transparent", config = function() vim.g.transparent_enabled = true end },
     { "wuelnerdotexe/vim-astro", config = function() vim.g.astro_typescript = true end },
     {
-        "bluz71/vim-nightfly-colors",
-        name = "nightfly",
-        lazy = false,
+        "catppuccin/nvim",
+        name = "catppuccin",
         priority = 1000,
         config = function()
-            vim.cmd([[colorscheme nightfly]])
+            require("catppuccin").setup()
+            vim.cmd.colorscheme("catppuccin")
+            vim.g.catppuccin_flavour = "mocha"
         end
     },
 }

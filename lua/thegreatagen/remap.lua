@@ -1,4 +1,3 @@
-
 vim.g.mapleader = " "
 vim.g.maplocalleader = ' '
 
@@ -13,4 +12,4 @@ vim.keymap.set("n", "<leader>w", function()
 end)
 
 vim.keymap.set("n", "<leader>q", ":q<CR>")
-vim.keymap.set("n", "<leader>f", vim.lsp.buf.format)
+vim.keymap.set("n", "<leader>f", ":lua vim.lsp.buf.format()<CR>")
