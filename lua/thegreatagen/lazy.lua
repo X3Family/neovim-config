@@ -11,6 +11,7 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
+local theme = require("configs.theme")
 local plugins = {
     -- lazy.nvim plugin ( the package manager )
     "folke/which-key.nvim",
@@ -151,6 +152,8 @@ local plugins = {
             vim.g.catppuccin_flavour = "mocha"
         end
     },
+    theme
 }
+
 
 require("lazy").setup(plugins, {})
