@@ -37,6 +37,23 @@ display_theme_info() {
     echo "Press 's' to submit theme, 'b' to go back."
 }
 
+cd ~/
+curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
+chmod u+x ~/nvim.appimage
+echo "alias nvim=~/nvim.appimage" >> ~/.zshrc
+rm -rf ~/.config/nvim
+rm -rf ~/.local/share/nvim
+sudo apt install git 
+wait
+git clone https://github.com/theGreatagen/neovim-config ~/.config/nvim
+# rm -rf ~/.config/nvim/.git
+wait
+echo ""
+echo ""
+echo "         ${blue}⚡  Welcome to${red} TheGreatagen${normal}${blue} Neovim config setup script! ⚡"
+echo ""
+echo ""
+
 # Function to handle actions for each theme
 handle_theme_actions() {
     case $1 in
@@ -73,14 +90,10 @@ handle_theme_actions() {
     esac
     echo ""
     echo "${bold}${blue}Enjoy your enhanced Neovim experience!${normal}"
+    echo "Opening Neovim..."
+    ~/nvim.appimage ~/.config/nvim/init.lua
 }
 
-# Welcome message with formatting
-echo ""
-echo ""
-echo "         ${blue}⚡  Welcome to${red}TheGreatagen${normal}${blue} Neovim config setup script! ⚡"
-echo ""
-echo ""
 
 # Loop for theme selection
 while true; do
