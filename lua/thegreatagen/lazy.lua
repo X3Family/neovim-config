@@ -116,6 +116,8 @@ local plugins = {
         "folke/trouble.nvim",
         dependencies = { "nvim-tree/nvim-web-devicons" },
     },
+    -- live share
+    { "jbyuki/instant.nvim" },
 
     -- persistence
     {
