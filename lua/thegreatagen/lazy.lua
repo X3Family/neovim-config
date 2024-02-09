@@ -9,6 +9,7 @@ if not vim.loop.fs_stat(lazypath) then
         lazypath,
     })
 end
+
 vim.opt.rtp:prepend(lazypath)
 
 local theme = require("configs.theme")
@@ -117,7 +118,12 @@ local plugins = {
         dependencies = { "nvim-tree/nvim-web-devicons" },
     },
     -- live share
-    { "jbyuki/instant.nvim" },
+    {
+        "jbyuki/instant.nvim",
+        config = function()
+            vim.g.instant_username = "thegreatagen"
+        end
+    },
 
     -- persistence
     {
