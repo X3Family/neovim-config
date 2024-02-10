@@ -12,7 +12,6 @@ end
 
 vim.opt.rtp:prepend(lazypath)
 
-local theme = require("configs.theme")
 local plugins = {
     -- lazy.nvim plugin ( the package manager )
     "folke/which-key.nvim",
@@ -33,6 +32,8 @@ local plugins = {
         "williamboman/mason.nvim"
     },
 
+    -- theme
+    { "ful1e5/onedark.nvim" , name="onedarkTheme"},
     -- lsps
     {
         'VonHeikemen/lsp-zero.nvim',
@@ -121,7 +122,7 @@ local plugins = {
     {
         "jbyuki/instant.nvim",
         config = function()
-            vim.g.instant_username = "thegreatagen"
+            vim.g.instant_username = "Ahmedx3"
         end
     },
 
