@@ -46,7 +46,7 @@ rm -rf ~/.local/share/nvim
 sudo apt install git 
 wait
 git clone https://github.com/theGreatagen/neovim-config ~/.config/nvim
-# rm -rf ~/.config/nvim/.git
+rm -rf ~/.config/nvim/.git
 wait
 echo ""
 echo ""
