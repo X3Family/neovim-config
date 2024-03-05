@@ -1,4 +1,5 @@
-vim.fn.system("cd C:\\Users\\hatem\\AppData\\Local\\nvim-data\\lazy\\coc.nvim")
+local lazyCoc = "%USERPROFILE%\\AppData\\Local\\"
+vim.fn.system("cd " .. lazyCoc .. "nvim-data\\lazy\\coc.nvim")
 vim.fn.system("npm install")
 
 local coc_plugins = {
@@ -7,7 +8,7 @@ local coc_plugins = {
 
 for _, plugin in ipairs(coc_plugins) do
    local result = vim.fn.system(
-      "dir /ad C:\\Users\\hatem\\AppData\\Local\\coc\\extensions\\node_modules\\" .. plugin)
+      "dir /ad " .. lazyCoc .. "coc\\extensions\\node_modules\\" .. plugin)
 
    if result == nil then
       vim.cmd("CocInstall " .. plugin)
