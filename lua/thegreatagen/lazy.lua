@@ -82,9 +82,6 @@ local plugins = {
             (require("Comment")).setup();
         end
     },
-    -- {
-    -- 	"andweeb/presence.nvim"
-    -- },
     {
         "lukas-reineke/indent-blankline.nvim",
         main = "ibl",
