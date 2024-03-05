@@ -172,6 +172,13 @@ local plugins = {
             vim.g.astro_typescript = true;
         end
     },
-    theme,
+    {
+        'neoclide/coc.nvim',
+        branch = 'release',
+        config = function()
+            require("configs.coc")
+        end
+    },
+    theme
 };
 (require("lazy")).setup(plugins, {});
