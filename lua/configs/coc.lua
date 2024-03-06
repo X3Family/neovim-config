@@ -5,7 +5,7 @@ local coc_plugins = {
    "coc-prisma",
 }
 
-for idx, plugin in ipairs(coc_plugins) do
+for _, plugin in ipairs(coc_plugins) do
    local result = vim.fn.system(
       "dir /ad " .. lazyCoc .. "coc\\extensions\\node_modules\\" .. plugin)
    local file_exist_test_1 = string.find(result, "The system cannot find the file specified.") ~= nil
