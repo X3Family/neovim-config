@@ -176,6 +176,7 @@ local plugins = {
             require("configs.coc")
         end
     },
+    { "mbbill/undotree" },
     theme
 };
 (require("lazy")).setup(plugins, {});
