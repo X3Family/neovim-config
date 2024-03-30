@@ -95,7 +95,7 @@ this keybinds is a general custom keybinds, that means that it isn't related to 
 | -------- | ------- | ------- |
 | `shift + j` | makes the line go down | visual mode |
 | `shift + k` | makes the line go up | visual mode |
-| `space + w` | saves the file after formatting it | normal mode |
+| `space + w` | saves the file | normal mode |
 
 ## [comment.nvim](https://github.com/numToStr/Comment.nvim)
 
