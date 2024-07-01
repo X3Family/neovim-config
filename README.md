@@ -205,7 +205,7 @@ live server allows you to host your html files locally on localhost:5555
 
 :LiveServerStart => starts the server on localhost:5555
 <br />
-LiveServerStop => stops the server
+:LiveServerStop => stops the server
 
 # ⚙️ Configuration
 
