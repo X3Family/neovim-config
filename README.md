@@ -201,7 +201,7 @@ undotree allows you to see your latest and old edits
 
 # [live-server.nvim](https://github.com/barrett-ruth/live-server.nvim)
 
-live server allows you to host your html files on localhost:5555
+live server allows you to host your html files locally on localhost:5555
 
 # ⚙️ Configuration
 
