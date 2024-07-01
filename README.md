@@ -203,6 +203,9 @@ undotree allows you to see your latest and old edits
 
 live server allows you to host your html files locally on localhost:5555
 
+:LiveServerStart => starts the server on localhost:5555
+LiveServerStop => stops the server
+
 # ⚙️ Configuration
 
 this section about how the config works and more.
