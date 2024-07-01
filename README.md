@@ -191,13 +191,17 @@ todo comments allows you to make beautiful comments with cool highlighting.
 | `]t` | allows you jump to next comment     | normal mode |
 | `[t` | allows you jump to previous comment | normal mode |
 
-## [undotree.nvim](https://github.com/mbbill/undotree)
+### [undotree.nvim](https://github.com/mbbill/undotree)
 
 undotree allows you to see your latest and old edits
 
 | Key         | Description                            | Modes       |
 | ----------- | -------------------------------------- | ----------- |
 | `space + t` | allows you to toggle in the edits tree | normal mode |
+
+# [live-server.nvim](https://github.com/barrett-ruth/live-server.nvim)
+
+live server allows you to host your html files on localhost:5555
 
 # ⚙️ Configuration
 
